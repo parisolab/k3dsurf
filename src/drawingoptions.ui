@@ -1,0 +1,857 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>drawingoptions</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>drawingoptions</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>371</width>
+            <height>232</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Control Center</string>
+    </property>
+    <widget class="QTabWidget">
+        <property name="name">
+            <cstring>tabWidget12</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>370</width>
+                <height>210</height>
+            </rect>
+        </property>
+        <property name="tabPosition">
+            <enum>Top</enum>
+        </property>
+        <property name="tabShape">
+            <enum>Rounded</enum>
+        </property>
+        <widget class="QWidget">
+            <property name="name">
+                <cstring>tab</cstring>
+            </property>
+            <attribute name="title">
+                <string>Isosurface</string>
+            </attribute>
+            <widget class="QGroupBox">
+                <property name="name">
+                    <cstring>groupBox37</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>0</y>
+                        <width>360</width>
+                        <height>180</height>
+                    </rect>
+                </property>
+                <property name="title">
+                    <string>Drawing Options</string>
+                </property>
+                <property name="alignment">
+                    <set>AlignHCenter</set>
+                </property>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox38</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>180</x>
+                            <y>60</y>
+                            <width>170</width>
+                            <height>110</height>
+                        </rect>
+                    </property>
+                    <property name="title">
+                        <string>Grid Resolution</string>
+                    </property>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5_3</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>50</x>
+                                <y>80</y>
+                                <width>20</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>Z</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>50</x>
+                                <y>50</y>
+                                <width>20</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>Y</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>50</x>
+                                <y>20</y>
+                                <width>20</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>X</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel1_14_2_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>20</y>
+                                <width>40</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>XYZ</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>zg</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>80</y>
+                                <width>80</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>4</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>30</number>
+                        </property>
+                        <property name="value">
+                            <number>20</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>yg</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>50</y>
+                                <width>80</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>4</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>30</number>
+                        </property>
+                        <property name="value">
+                            <number>20</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>xg</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>80</x>
+                                <y>20</y>
+                                <width>80</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>4</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>30</number>
+                        </property>
+                        <property name="value">
+                            <number>20</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>xyzg</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>10</x>
+                                <y>40</y>
+                                <width>20</width>
+                                <height>60</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>4</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>60</number>
+                        </property>
+                        <property name="value">
+                            <number>26</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QGroupBox">
+                    <property name="name">
+                        <cstring>groupBox38_2</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>60</y>
+                            <width>170</width>
+                            <height>110</height>
+                        </rect>
+                    </property>
+                    <property name="title">
+                        <string>Cut Grid</string>
+                    </property>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5_2_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>59</x>
+                                <y>50</y>
+                                <width>20</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>Y</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5_3_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>59</x>
+                                <y>80</y>
+                                <width>20</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>Z</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel1_14_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>9</x>
+                                <y>20</y>
+                                <width>40</width>
+                                <height>18</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>XYZ</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QLabel">
+                        <property name="name">
+                            <cstring>textLabel2_5_4</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>60</x>
+                                <y>20</y>
+                                <width>20</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="frameShape">
+                            <enum>Box</enum>
+                        </property>
+                        <property name="text">
+                            <string>X</string>
+                        </property>
+                        <property name="alignment">
+                            <set>AlignCenter</set>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>zg_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>90</x>
+                                <y>80</y>
+                                <width>70</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>0</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>20</number>
+                        </property>
+                        <property name="value">
+                            <number>0</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>xg_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>90</x>
+                                <y>20</y>
+                                <width>70</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>0</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>20</number>
+                        </property>
+                        <property name="value">
+                            <number>0</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>yg_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>90</x>
+                                <y>50</y>
+                                <width>70</width>
+                                <height>20</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>0</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>20</number>
+                        </property>
+                        <property name="value">
+                            <number>0</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Horizontal</enum>
+                        </property>
+                    </widget>
+                    <widget class="QScrollBar">
+                        <property name="name">
+                            <cstring>xyzg_2</cstring>
+                        </property>
+                        <property name="geometry">
+                            <rect>
+                                <x>20</x>
+                                <y>40</y>
+                                <width>20</width>
+                                <height>60</height>
+                            </rect>
+                        </property>
+                        <property name="minValue">
+                            <number>0</number>
+                        </property>
+                        <property name="maxValue">
+                            <number>20</number>
+                        </property>
+                        <property name="value">
+                            <number>0</number>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                    </widget>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_15_2</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>20</y>
+                            <width>160</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="paletteBackgroundColor">
+                        <color>
+                            <red>170</red>
+                            <green>170</green>
+                            <blue>127</blue>
+                        </color>
+                    </property>
+                    <property name="frameShape">
+                        <enum>Box</enum>
+                    </property>
+                    <property name="text">
+                        <string>Select to Invert state:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>Fill</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Triangles</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Infos</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Axes</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>comboBox18_3</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>170</x>
+                            <y>20</y>
+                            <width>180</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+        <widget class="QWidget">
+            <property name="name">
+                <cstring>tab</cstring>
+            </property>
+            <attribute name="title">
+                <string>Parametric</string>
+            </attribute>
+            <widget class="QGroupBox">
+                <property name="name">
+                    <cstring>Drawingoption</cstring>
+                </property>
+                <property name="enabled">
+                    <bool>true</bool>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>0</x>
+                        <y>20</y>
+                        <width>360</width>
+                        <height>120</height>
+                    </rect>
+                </property>
+                <property name="paletteBackgroundColor">
+                    <color>
+                        <red>230</red>
+                        <green>230</green>
+                        <blue>230</blue>
+                    </color>
+                </property>
+                <property name="title">
+                    <string>Drawing Option:</string>
+                </property>
+                <property name="alignment">
+                    <set>AlignTop|AlignHCenter</set>
+                </property>
+                <property name="checked">
+                    <bool>false</bool>
+                </property>
+                <widget class="QScrollBar">
+                    <property name="name">
+                        <cstring>linecolumn</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>240</x>
+                            <y>90</y>
+                            <width>110</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="minValue">
+                        <number>10</number>
+                    </property>
+                    <property name="maxValue">
+                        <number>96</number>
+                    </property>
+                    <property name="pageStep">
+                        <number>1</number>
+                    </property>
+                    <property name="value">
+                        <number>25</number>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>cut_Column_2_4</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>190</x>
+                            <y>90</y>
+                            <width>40</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="frameShape">
+                        <enum>NoFrame</enum>
+                    </property>
+                    <property name="text">
+                        <string>Grid</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QScrollBar">
+                    <property name="name">
+                        <cstring>cutcolumn</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>240</x>
+                            <y>60</y>
+                            <width>110</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="maxValue">
+                        <number>25</number>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                </widget>
+                <widget class="QScrollBar">
+                    <property name="name">
+                        <cstring>cutline</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>240</x>
+                            <y>30</y>
+                            <width>110</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="maxValue">
+                        <number>25</number>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>cut_Column_5</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>190</x>
+                            <y>60</y>
+                            <width>40</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="frameShape">
+                        <enum>NoFrame</enum>
+                    </property>
+                    <property name="text">
+                        <string>Colu</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_15_3</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>30</y>
+                            <width>170</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="paletteBackgroundColor">
+                        <color>
+                            <red>170</red>
+                            <green>170</green>
+                            <blue>127</blue>
+                        </color>
+                    </property>
+                    <property name="frameShape">
+                        <enum>PopupPanel</enum>
+                    </property>
+                    <property name="text">
+                        <string>Select to Invert state:</string>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>cut_Line_4</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>190</x>
+                            <y>30</y>
+                            <width>40</width>
+                            <height>20</height>
+                        </rect>
+                    </property>
+                    <property name="frameShape">
+                        <enum>NoFrame</enum>
+                    </property>
+                    <property name="text">
+                        <string>Line</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignCenter</set>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>Fill</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Axes</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Lines</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Infos</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Normals</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Exterior</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>comboBox18_2</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>70</y>
+                            <width>170</width>
+                            <height>40</height>
+                        </rect>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+        <widget class="QWidget">
+            <property name="name">
+                <cstring>TabPage</cstring>
+            </property>
+            <attribute name="title">
+                <string>OpenGL</string>
+            </attribute>
+            <widget class="QGroupBox">
+                <property name="name">
+                    <cstring>groupBox57</cstring>
+                </property>
+                <property name="geometry">
+                    <rect>
+                        <x>10</x>
+                        <y>10</y>
+                        <width>170</width>
+                        <height>140</height>
+                    </rect>
+                </property>
+                <property name="title">
+                    <string>OpenGl Options: </string>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1_15</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>40</y>
+                            <width>150</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                    <property name="paletteBackgroundColor">
+                        <color>
+                            <red>170</red>
+                            <green>170</green>
+                            <blue>127</blue>
+                        </color>
+                    </property>
+                    <property name="frameShape">
+                        <enum>PopupPanel</enum>
+                    </property>
+                    <property name="text">
+                        <string>Select to Invert state:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>Smooth Polygons</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Smooth Lines</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Plan</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>comboBox18</cstring>
+                    </property>
+                    <property name="geometry">
+                        <rect>
+                            <x>10</x>
+                            <y>70</y>
+                            <width>150</width>
+                            <height>30</height>
+                        </rect>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+    </widget>
+</widget>
+<toolbars>
+</toolbars>
+<includes>
+    <include location="local" impldecl="in implementation">drawingoptions.ui.h</include>
+</includes>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

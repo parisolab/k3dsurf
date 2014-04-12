@@ -1,0 +1,34 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                           Usage license:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Copyright © 2007 Abderrahman Taha (taha_ab@yahoo.fr)
+
+This Software is distributed under the GPL license, so trying to 
+obfuscate the fact that this Software is not made by you or that it 
+is free is expressly prohibited.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                       To compile the program :
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+tar -xvzf k3dsurf-0.6.2.tar.gz;
+cd k3dsurf;
+qmake; make;
+./bin/k3dsurf & ;
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                       Special thanks to :
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1) Warp for his excellent library parser :
+("Juha Nieminen (warp@iki.fi)",http://iki.fi/warp/FunctionParser/)
+2) Qt and KDevelop community.
+
+
+
+
+
+
+
+
+
+

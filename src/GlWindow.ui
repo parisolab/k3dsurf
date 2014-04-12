@@ -1,0 +1,100 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>GlWindow</class>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>GlWindow</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>541</width>
+            <height>570</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>3</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>244</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>1600</width>
+            <height>1200</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>GlWindow</string>
+    </property>
+    <widget class="OpenGlWidget">
+        <property name="name">
+            <cstring>glWidget</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>540</width>
+                <height>540</height>
+            </rect>
+        </property>
+    </widget>
+</widget>
+<toolbars>
+</toolbars>
+<customwidgets>
+    <customwidget>
+        <class>OpenGlWidget</class>
+        <header location="local">glviewer.h</header>
+        <sizehint>
+            <width>540</width>
+            <height>540</height>
+        </sizehint>
+        <container>1</container>
+        <sizepolicy>
+            <hordata>0</hordata>
+            <verdata>0</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+        <slot access="public" specifier="">newFile()</slot>
+        <slot access="public" specifier="">newGear()</slot>
+        <slot access="public" specifier="">setFunction(int)</slot>
+        <slot access="public" specifier="">cutline(int)</slot>
+        <slot access="public" specifier="">cutcolumn(int)</slot>
+        <slot access="public" specifier="">linecolumn(int)</slot>
+        <slot access="public" specifier="">boxok()</slot>
+        <slot access="public" specifier="">anim()</slot>
+        <slot access="public" specifier="">morph()</slot>
+        <slot access="public" specifier="">start()</slot>
+        <slot access="public" specifier="">clipok()</slot>
+        <slot access="public" specifier="">infosok()</slot>
+        <slot access="public" specifier="">latence_change(int)</slot>
+        <slot access="public" specifier="">step_morph(int)</slot>
+        <slot access="public" specifier="">red(int)</slot>
+        <slot access="public" specifier="">green(int)</slot>
+        <slot access="public" specifier="">blue(int)</slot>
+        <slot access="public" specifier="">valueChanged()</slot>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="PNG" length="987">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003a249444154789cad954d4c5c5514c77ff7be3b336f18bec6e90c8388452a4dd5057692ca42ad51e8c2441a70615cb6d12d36c6ad31e9b24953f7d4a82b0d5d99b61bfb618d81c42686602d30192c45c8c08030c0bc9961e67ddce7024a1c5ad418ceeadc9b737ff9dfff39b957501b3e0713423cca868686fc542a856559e472392ccbfa4f8442a1403a9d667c7c1cc77176f7d523a5a9548ad67693646095ceee328e5746088190a01448b99de383effbbbba3cad997b18822f1477ef3c0ec6b22c92815572eb37c95b33b8de16a1b0c6734c56160df2ab55f0833c7528c0d3cf5589d4bb388e0f42a0ea219e346a6eb20bcee5721ce92e93b76670fc026638ccecfd00b7af1799fe750b28ef5446e8386a726ab0819e370cb45f021fccb07c32d8b22c6caf8ceb9530c361eede8191e165401269507476259041c1d2bccd5c668bcb174ae4e663bc7b26884f15adfd2783b72d1384c2307b5f31329c0334bdfd2df4f51b441302657a54ca4d8cddb01919fe936bdf2ed192eca46fd044ca520db846bf90e03926b7ae5a804bef3b09defb304073b284320bacaf98dcbe56e6d4401d67cec501c577dfac62ad490c43d4806b142b052b5983cc6f551a1b1be93badd072036518581b4d7c75a9c8d4449eb5659b0f3e8e337a2342667293cc7414a386b447b19482b5b52a9a0a878f9844e302a50c4a9b51862f584c4de4891daaa3e7f506224d158e75d701b0b4e020e43ecddbf618840e021a19d418a6c7fa4a94af3f2f323d61019a5048d1da1e4099658ce0f671ed2ba4510bae5d0988c6051021bbe050ddaa63ec079ba9893ccdcd752493cd2c6637b8f8e9220f26a2641f549048da9e0d2285de5fb1afa1adc3e5f0f361fef8bdcce8f736a7df8fb0b916e59557eb49b685b8f899cbe2dc06e73f9ac72e97688a8578f1b8cf52b6165cabd8f789d47bbc3d500fc095cb2b8cddac70f65c8c136f7974bebcc927e73b88259a296eac63bb2ebd0331dabb5c7cfe618e1102c7819e93068b0b51ae8e64f9f2d212a3b7221c7bc9c4080ab2b339acbc0d3bcdfae5a71299fe042ab04ff30a85029ed6207c5c5164f0ac49a2b58beb5796c9dcdb24736f1dd080241a33e91d78869f7fb4b0ca36765553dcdcc7e3743acddc5c08a35ea091685c7a0724274e269949db2ccf6b7c24aded415e38eed37e54f3667f0b4e1594b2981cafee9d836d77038100a9d714f1a441282cf13d8130348694183bcfa6940642e81d3f354a498a05981cafb09a735959721f0773c021ffbde4ffc5df5f8e03552df6ac0fec33fd0b6a3e7a0a6b70195e0000000049454e44ae426082</data>
+    </image>
+</images>
+<includes>
+    <include location="local" impldecl="in implementation">GlWindow.ui.h</include>
+</includes>
+<slots>
+    <slot>keyPressEvent( QKeyEvent * e )</slot>
+    <slot>resizeEvent( QResizeEvent * e )</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>openglwidget.h</includehint>
+</includehints>
+</UI>

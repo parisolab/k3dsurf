@@ -1,0 +1,206 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>newwindow2</class>
+<comment>    Copyright (C) 2005 by Abderrahman Taha                                 
+                                                                                                                                                   
+    This program is free software; you can redistribute it and/or modify   
+    it under the terms of the GNU General Public License as published by   
+    the Free Software Foundation; either version 2 of the License, or      
+    (at your option) any later version.                                    
+                                                                           
+    This program is distributed in the hope that it will be useful,        
+    but WITHOUT ANY WARRANTY; without even the implied warranty of         
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+   See the  GNU General Public License for more details.                           
+                                                                           
+    You should have received a copy of the GNU General Public License      
+    along with this program; if not, write to the                          
+    Free Software Foundation, Inc.,                                        
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA  </comment>
+<author>Abderrahman Taha</author>
+<widget class="QMainWindow">
+    <property name="name">
+        <cstring>newwindow2</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>532</width>
+            <height>553</height>
+        </rect>
+    </property>
+    <property name="sizePolicy">
+        <sizepolicy>
+            <hsizetype>3</hsizetype>
+            <vsizetype>1</vsizetype>
+            <horstretch>244</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+    </property>
+    <property name="minimumSize">
+        <size>
+            <width>21</width>
+            <height>21</height>
+        </size>
+    </property>
+    <property name="maximumSize">
+        <size>
+            <width>1600</width>
+            <height>1200</height>
+        </size>
+    </property>
+    <property name="caption">
+        <string>Parametric Surface</string>
+    </property>
+    <widget class="ConnectWidget">
+        <property name="name">
+            <cstring>newwindow</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>530</width>
+                <height>530</height>
+            </rect>
+        </property>
+    </widget>
+</widget>
+<toolbars>
+</toolbars>
+<customwidgets>
+    <customwidget>
+        <class>ConnectWidget</class>
+        <header location="local">panel.h</header>
+        <sizehint>
+            <width>540</width>
+            <height>540</height>
+        </sizehint>
+        <container>1</container>
+        <sizepolicy>
+            <hordata>0</hordata>
+            <verdata>0</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+        <slot access="public" specifier="">newFile()</slot>
+        <slot access="public" specifier="">setFunction(int)</slot>
+        <slot access="public" specifier="">cutline(int)</slot>
+        <slot access="public" specifier="">cutcolumn(int)</slot>
+        <slot access="public" specifier="">boxok()</slot>
+        <slot access="public" specifier="">clipok()</slot>
+        <slot access="public" specifier="">morph()</slot>
+        <slot access="public" specifier="">linecolumn(int)</slot>
+        <slot access="public" specifier="">infosok()</slot>
+        <slot access="public" specifier="">step_morph(int)</slot>
+        <slot access="public" specifier="">latence_change(int)</slot>
+        <slot access="public" specifier="">red(int)</slot>
+        <slot access="public" specifier="">green(int)</slot>
+        <slot access="public" specifier="">blue(int)</slot>
+        <slot access="public" specifier="">interior()</slot>
+        <slot access="public" specifier="">exterior()</slot>
+        <slot access="public" specifier="">transparence()</slot>
+        <slot access="public" specifier="">anim4xz()</slot>
+        <slot access="public" specifier="">anim4xy()</slot>
+        <slot access="public" specifier="">anim4yz()</slot>
+        <slot access="public" specifier="">anim4xw()</slot>
+        <slot access="public" specifier="">anim4yw()</slot>
+        <slot access="public" specifier="">anim4zw()</slot>
+        <slot access="public" specifier="">angleyz(int)</slot>
+        <slot access="public" specifier="">angleyw(int)</slot>
+        <slot access="public" specifier="">anglexy(int)</slot>
+        <slot access="public" specifier="">anglezw(int)</slot>
+        <slot access="public" specifier="">anglexz(int)</slot>
+        <slot access="public" specifier="">anim()</slot>
+        <slot access="public" specifier="">anim5xz()</slot>
+        <slot access="public" specifier="">anim5xw()</slot>
+        <slot access="public" specifier="">anim5xt()</slot>
+        <slot access="public" specifier="">anim5yz()</slot>
+        <slot access="public" specifier="">anim5yw()</slot>
+        <slot access="public" specifier="">anim5yt()</slot>
+        <slot access="public" specifier="">anim5zt()</slot>
+        <slot access="public" specifier="">anim5zw()</slot>
+        <slot access="public" specifier="">anim5xy()</slot>
+        <slot access="public" specifier="">anim5wt()</slot>
+        <slot access="public" specifier="">anglext(int)</slot>
+        <slot access="public" specifier="">angleyt(int)</slot>
+        <slot access="public" specifier="">anglezt(int)</slot>
+        <slot access="public" specifier="">anglexw(int)</slot>
+        <slot access="public" specifier="">anglewt(int)</slot>
+        <slot access="public" specifier="">videorecord()</slot>
+        <slot access="public" specifier="">screenshot()</slot>
+        <slot access="public" specifier="">screenshot()</slot>
+        <slot access="public" specifier="">screenshot()</slot>
+        <slot access="public" specifier="">quality(int)</slot>
+        <slot access="public" specifier="">anglexs(int)</slot>
+        <slot access="public" specifier="">angleys(int)</slot>
+        <slot access="public" specifier="">anglezs(int)</slot>
+        <slot access="public" specifier="">anglews(int)</slot>
+        <slot access="public" specifier="">anglets(int)</slot>
+        <slot access="public" specifier="">anim6xs()</slot>
+        <slot access="public" specifier="">anim6ys()</slot>
+        <slot access="public" specifier="">anim6zs()</slot>
+        <slot access="public" specifier="">anim6ws()</slot>
+        <slot access="public" specifier="">anim6ts()</slot>
+        <slot access="public" specifier="">jpg()</slot>
+        <slot access="public" specifier="">jpg2()</slot>
+        <slot access="public" specifier="">png()</slot>
+        <slot access="public" specifier="">png2()</slot>
+        <slot access="public" specifier="">bmp()</slot>
+        <slot access="public" specifier="">bmp2()</slot>
+        <slot access="public" specifier="">activate_frame()</slot>
+        <slot access="public" specifier="">quality2(int)</slot>
+        <slot access="public" specifier="">frame_name_short()</slot>
+        <slot access="public" specifier="">frame_name_big()</slot>
+        <slot access="public" specifier="">zbuffer_quality_change(int)</slot>
+        <slot access="public" specifier="">zbuffer_activate()</slot>
+        <slot access="public" specifier="">addcondt()</slot>
+        <slot access="public" specifier="">meshcondt()</slot>
+        <slot access="public" specifier="">scalex(int)</slot>
+        <slot access="public" specifier="">scalez(int)</slot>
+        <slot access="public" specifier="">scaley(int)</slot>
+        <slot access="public" specifier="">activescalex()</slot>
+        <slot access="public" specifier="">activescaley()</slot>
+        <slot access="public" specifier="">activescalez()</slot>
+        <slot access="public" specifier="">save_chages()</slot>
+        <slot access="public" specifier="">coeffrayony_changed(int)</slot>
+        <slot access="public" specifier="">coeffrayonz_changed(int)</slot>
+        <slot access="public" specifier="">coeffrayonx_changed(int)</slot>
+        <slot access="public" specifier="">nbtwistez_changed(int)</slot>
+        <slot access="public" specifier="">nbtwistey_changed(int)</slot>
+        <slot access="public" specifier="">nbtwistex_changed(int)</slot>
+        <slot access="public" specifier="">Draw_Normals()</slot>
+        <slot access="public" specifier="">start()</slot>
+        <slot access="public" specifier="">Axes_draw()</slot>
+        <slot access="public" specifier="">Axes_center()</slot>
+        <slot access="public" specifier="">Axes_width(int)</slot>
+        <slot access="public" specifier="">Axes_size(int)</slot>
+        <slot access="public" specifier="">coeffrayon_coily_changed(int)</slot>
+        <slot access="public" specifier="">coeffrayon_coilx_changed(int)</slot>
+        <slot access="public" specifier="">coeffrayon_coilz_changed(int)</slot>
+        <slot access="public" specifier="">slot()</slot>
+        <slot access="public" specifier="">slot()</slot>
+        <slot access="public" specifier="">nbcoily_changed(int)</slot>
+        <slot access="public" specifier="">slot()</slot>
+        <slot access="public" specifier="">nbcoilx_changed(int)</slot>
+        <slot access="public" specifier="">nbcoilz_changed(int)</slot>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="PNG" length="989">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003a449444154789cad954d4c5c5514c77ff7bec79b370c5fe3748641c4529449d5a4caa2b268ac51e8c2441a70615cb6d1b58d718931e9b24953f7d4a82b0d5d99b61bfb618d81c42686602de00c96226418186160de9b1966debc779f8ba1c4a1458de1accebd39f797fffd9f937b05f5e1733021c4a36c7474d44f24125896452693c1b6edff44b02c8b6432c9d4d4148ee3eceeeb8f94261209da3b0d62dd658e1c2b51f54a08211012741da4ace5f8e0fbfeae2e4f29161f1af89f6bdcbdc363602ccb22d65d6675f326397b1ed7db261054785593ec8a466ebd02bec153871a78fa488550934bb5ea8310e84d108d6b7537d9056732197a8e95c8d9f3547d0b331864e17e03b7af1798fb651b28ed5486e84e989c1a69a6ff750de517c10733289f0cb66d1bc72be17a45cc6090bb77607c6c0d90849a757a7a634843905972584c6d73f94291d5a508ef9c31f0a9a094ff6470cd324120080bf775c6c75601c5c0503b83431ae19840373dcaa556266f388c8ffdc9b56f32b4c77b181c3191b25807aed32f247855935b576dc065e0ed18ef7ed0405bbc886e5a6c664d6e5f2b716ab89133e7a280ceb75faf636f48344dd481eb14eb3a64d31aa95f2bb4b4b430785a47c92d744dc3de6ae5cb4b0566a7736cac39bcff5194891b21523379527361b43ad21ec5520a36362a28ca1c7ece241c15e8ba46311f66ec82cdec748ec8a146fa5f6b26d45ae6e8cb8db5c62f5711729fe6d53c06a10c40210d85667a6c66c37cf55981b9691b5004023a1d5d0de86609cda81d57be8ed4eac1f52b01e1a80042a497ab54b61b99fcde61763a475b5b23f1781b2be92d2e7eb2c283e930e907652492ce670da450fb2bf6157476bb1c7e3ec81fbf9798f8cee1f47b21f21b615e3dd144bc33c0c54f5d5616b738ffe1124ea9486b24c08b7d3e99743db85eb1ef136af2786bb809802b97b34cde2c73f65c84e36f7af4bc92e7e3f3dd44626d14b636715c9781e1085dbd2e3eff30c70841b50afd27355696c35c1d4ff3c5a50c13b7421c7dc9443304e98555ec9c033bcdfaf9c722a9a1187ac33ecdb32c0b4f29103eae283072d624d6d1cbf52b6ba4eee549dddb04142009474c06869fe1a71f6cec9283535114f2fb789c4c26595c34d09a040a89c265605872fc649cf9df1cd696143e928e2e8317fa7cba128a3786daa95640d76d66a62a7be7a0e6ae6118f49dd088c635024189ef0984a6d0a444db7936a5d41042edf8a9d07549c18299a932ebab2ed98cfb3898030ef9ef25ff2ffefe721ca86ab1677d609fe95f10b47a24c315edd20000000049454e44ae426082</data>
+    </image>
+</images>
+<includes>
+    <include location="local" impldecl="in implementation">newwindow2.ui.h</include>
+</includes>
+<slots>
+    <slot>keyPressEvent ( QKeyEvent * e )</slot>
+    <slot>resizeEvent( QResizeEvent * e )</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>connectwidget.h</includehint>
+</includehints>
+</UI>
