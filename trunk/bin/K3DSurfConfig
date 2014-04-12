@@ -1,0 +1,31 @@
+
+# Comments start with "#"
+#+++++++++++++++ Points & Triangles ++++++++++++++++
+# The values of ISOMAXTRIANG and ISOMAXPOINTS should be between 0 and 10
+# ISOMaxPOINTS and ISOMAXTRIANG are expressed in Millions(ie: 0.41 = 410.000 triangles)
+# Memory requirements :
+# 1 Millions Points    => 88 MegRAM
+# 1 Millions Triangles => 50 MegRAM
+# Example: ISOMAXPOINTS = 0.42 => 0.42x88 = 36.96 MegRAM
+ISOMAXPOINTS=  0.19
+ISOMAXTRIANG=  0.29
+
+#+++++++++++++++ Grid ++++++++++++++++
+# ISOMAXGRID is : 4 < ISOMAXGRID < 500
+# Grid of 100x100x100  => 61 MegRAM
+# Example: ISOMAXGRID = 200 => (200x200x200/100x100x100)*61 = 8*61 = 488 MegRAM
+ISOMAXGRID=  69
+
+#+++++++++++++++ Colors ++++++++++++++++
+# Colors Values C : 0 < C <255
+
+FrontIsoColor= 57, 156, 0, 126
+BackIsoColor= 225, 164, 0, 183
+GridIsoColor= 57, 61, 30, 42
+GroundIsoColor= 0, 0, 0, 100
+CndIsoColor= 255, 51, 0, 99
+FrontParaColor= 255, 186, 0, 100
+BackParaColor= 0, 156, 0, 100
+GridParaColor= 42, 103, 42, 100
+GroundParaColor= 0, 0, 0, 100
+CndParaColor= 255, 51, 0, 99
